@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  inverter-mqtt:
+    build: .
+    container_name: hybrid-inverter-mqtt
+    restart: always
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+#    devices:
+#      - "/dev/ttyUSB0:/dev/ttyUSB0"
