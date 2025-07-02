@@ -39,3 +39,4 @@ mosquitto_sub -h localhost -t "home/inverters/Q00000000001/ctrl_fields/bat_ac_ch
 ```
 
 *`bat_ac_charging_current` for each inverter this param name may be various
+<img src="https://github.com/user-attachments/assets/6a6799f9-b697-45de-8e73-a4207c48c09c" width="60%">
